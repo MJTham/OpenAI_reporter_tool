@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { UploadComponent } from './upload.component';
 import { DashboardComponent } from './dashboard.component';
 import { GptSummaryComponent } from './gpt-summary.component';
+import { Upload } from './upload/upload';
 
 @NgModule({
   declarations: [
     AppComponent,
     UploadComponent,
     DashboardComponent,
-    GptSummaryComponent
+    GptSummaryComponent,
+    Upload
   ],
   imports: [
     BrowserModule,
