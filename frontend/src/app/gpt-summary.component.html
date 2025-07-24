@@ -1,0 +1,10 @@
+<h3>GPT Summary</h3>
+<button (click)="getSummary()">Generate Summary</button>
+
+<div *ngIf="loading">
+  Generating summary...
+</div>
+
+<p *ngIf="summary">
+  {{ summary }}
+</p>
