@@ -17,7 +17,7 @@ It is designed for companies that work with machines, robots, or SCADA systems �
 
 ---
 
-## 💡 Use Case for ABB
+## 💡 Use Case for PLC data
 
 This tool shows how we can:
 - Read and store telemetry data (from SCADA, PLC, or logs)
