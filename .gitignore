@@ -1,0 +1,15 @@
+# Ignore all environment files
+*.env
+.env
+backend/.env
+
+# Ignore Python cache and virtualenv
+__pycache__/
+*.pyc
+.venv/
+.envrc
+
+# Ignore node_modules and build files
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/

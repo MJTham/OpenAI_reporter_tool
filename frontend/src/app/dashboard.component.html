@@ -1,0 +1,9 @@
+<h3>Data Dashboard</h3>
+<table border="1">
+  <tr><th>Timestamp</th><th>Metric</th><th>Value</th></tr>
+  <tr *ngFor="let record of records">
+    <td>{{record.timestamp}}</td>
+    <td>{{record.metric}}</td>
+    <td>{{record.value}}</td>
+  </tr>
+</table>
